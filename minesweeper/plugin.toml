@@ -1,0 +1,34 @@
+### ！！！
+### 注意： 该文件中的文本/注释 （除了简介）完全由ai编写，请注意辨别
+### ！！！
+
+# N.E.K.O. 插件清单
+# 安装到任一扫描根后，在插件管理器点“重载全部”即可加载：
+#   用户安装根: %LOCALAPPDATA%\N.E.K.O\.neko-plugin-installations\plugins\minesweeper\
+#   内置插件根: <游戏目录>\resources\bin\plugin\plugins\minesweeper\
+
+[plugin]
+id = "minesweeper"
+name = "合作扫雷(自带迷你版扫雷)"
+type = "plugin"
+description = "想和yui合作扫雷吗？欢迎使用本插件。合作扫雷可让yui帮助你翻格、插旗，以及，，一些陪伴（？），如果想使用本插件，请试着对yui说，“启动扫雷”或类似的话。（本插件内置迷你扫雷，无需额外下载）"
+short_description = "Bundled Minesweeper: say \"启动扫雷\" to start; the character follows the game."
+keywords = ["minesweeper", "扫雷", "mine", "game", "bridge"]
+version = "0.0.1(?)"
+# 包名必须与文件夹名一致；SDK 会以 plugin.plugins.<id> 这个包路径导入。
+entry = "plugin.plugins.minesweeper:MinesweeperPlugin"
+
+[plugin.author]
+name = "啊这？"
+
+[plugin.sdk]
+recommended = ">=0.1.0,<0.2.0"
+supported = ">=0.1.0,<0.3.0"
+
+[plugin_runtime]
+enabled = true
+auto_start = true
+
+# 与 minesweeper_plugin.py 中的 PORT 保持一致。
+[minesweeper]
+port = 39001
