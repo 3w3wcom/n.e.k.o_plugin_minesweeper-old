@@ -13,6 +13,6 @@
 
 ## 当前计划
 
-正计划阅读开发文档（`N.E.K.O/plugin/neko_plugin_cli/docs/package-format.md` 以及 https://project-neko.online/zh-CN/plugins/ ）。
+正计划阅读开发文档（https://project-neko.online/zh-CN/plugins/ ）。
 
-目前进度是「AI 已读，我还没读（汗）」，所以插件可能还有不少地方不符合规范。
+目前进度是「AI 已读，我还没读(汗)」，所以插件可能还有不少地方不符合规范。
