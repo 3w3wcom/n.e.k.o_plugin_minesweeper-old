@@ -2,7 +2,7 @@
 
 目前该插件由 AI 辅助完成。（占99%）
 
-本地环境（`*\N.E.K.O\.neko-plugin-installations\plugins`）下的插件运行测试暂时没有问题。  
+本地文件夹（`*\N.E.K.O\.neko-plugin-installations\plugins`）直接放入插件进行测试，暂时没有问题。（但不清楚插件是否符合上传规范）  
 如有问题请联系我，我去问问 AI（（
 
 ## 已知问题
